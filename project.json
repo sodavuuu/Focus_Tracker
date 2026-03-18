@@ -1,0 +1,53 @@
+{
+  "name": "focus-tracker",
+  "displayName": "Focus Tracker - Pomodoro Timer",
+  "description": "Beautiful web app for tracking focus sessions with Pomodoro timer, statistics, and analytics",
+  "version": "1.0.0",
+  "keywords": [
+    "pomodoro",
+    "timer",
+    "focus",
+    "productivity",
+    "tracking",
+    "analytics"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/focus-tracker"
+  },
+  "homepage": "https://focus-tracker.vercel.app",
+  "bugs": {
+    "url": "https://github.com/yourusername/focus-tracker/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "features": [
+    "Customizable Pomodoro Timer",
+    "Session History Tracking",
+    "Real-time Statistics",
+    "Weekly Analytics Charts",
+    "Beautiful Glassmorphism UI",
+    "Dark Mode",
+    "Responsive Design",
+    "SQLite Database",
+    "REST API"
+  ],
+  "stack": {
+    "frontend": [
+      "Next.js 16",
+      "React 19",
+      "TypeScript",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Recharts"
+    ],
+    "backend": [
+      "Next.js API Routes",
+      "SQLite with better-sqlite3"
+    ]
+  }
+}
