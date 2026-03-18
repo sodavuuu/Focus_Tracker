@@ -6,12 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "postbuild": "echo 'Build completed successfully'"
   },
   "dependencies": {
-    "@types/better-sqlite3": "^7.6.13",
     "axios": "^1.13.6",
-    "better-sqlite3": "^12.8.0",
     "framer-motion": "^12.38.0",
     "next": "16.1.7",
     "react": "19.2.3",
